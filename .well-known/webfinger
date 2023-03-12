@@ -1,0 +1,23 @@
+{
+  "subject": "acct:tothewirebot@botsin.space",
+  "aliases": [
+    "https://botsin.space/@tothewirebot",
+    "https://botsin.space/users/tothewirebot"
+  ],
+  "links": [
+     {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://botsin.space/@tothewirebot"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://botsin.space/users/tothewirebot"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://botsin.space/authorize_interaction?uri={uri}"
+    }
+  ]
+}
