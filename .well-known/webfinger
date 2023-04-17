@@ -20,7 +20,7 @@
       "template": "https://botsin.space/authorize_interaction?uri={uri}"
     }
   ]
-}
+},
 {
   "subject": "acct:otzonebot@botsin.space",
   "aliases": [
