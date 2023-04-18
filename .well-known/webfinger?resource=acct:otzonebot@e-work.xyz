@@ -1,0 +1,23 @@
+{
+  "subject": "acct:otzonebot@botsin.space",
+  "aliases": [
+    "https://botsin.space/@otzonebot",
+    "https://botsin.space/users/otzonebot"
+  ],
+  "links": [
+     {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://botsin.space/@otzonebot"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://botsin.space/users/otzonebot"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://botsin.space/authorize_interaction?uri={uri}"
+    }
+  ]
+}
